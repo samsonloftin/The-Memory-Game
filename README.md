@@ -2,7 +2,7 @@
 Concentrate on this web-based memory game. Players are tasked with matching 8 pairs of cards. For an additonal challenge, players are ranked based on the number of moves it took to win the game. A timer is also included; however, it has no effect on the star ranking.
 
 ## Play Now
-[Play Now](https://samsonloftin.github.io/The-Memory-Game/)
+[Play Now](https://samsonloftin.github.io/the-memory-game/)
 
 ## Stars
 **3 STARS** Less than 15 moves <br>
