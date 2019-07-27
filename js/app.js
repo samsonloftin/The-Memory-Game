@@ -48,10 +48,10 @@ let vDepot = (function (){
 	const restart = document.querySelector(".restart");
 	
 	// Replays the game
-	playAgain.addEventListener("touchstart", resetGame);
+	playAgain.addEventListener("click", resetGame);
 	
 	// Restarts the game
-	restart.addEventListener("touchstart", resetGame);
+	restart.addEventListener("click", resetGame);
 	
 	// Shuffle function from http://stackoverflow.com/a/2450976
 	function shuffle(array) {
@@ -84,7 +84,7 @@ let vDepot = (function (){
 			cardSymbol.className += " " + e;
 			cardCreate.append(cardSymbol);
 			// once the li element with the card class is created I then add the eventListener to it
-			cardCreate.addEventListener("touchstart", flipCard, false);
+			cardCreate.addEventListener("click", flipCard, false);
 		});	
 	};
 	
